@@ -1,0 +1,81 @@
+PS C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (backend) chaibackend
+version: (1.0.0) 
+description: a basic app to deploy 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: node chai
+author: Amol Shelar
+license: (ISC) 
+About to write to C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend\package.json:
+
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "Amol Shelar",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
+
+PS C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend> ls
+
+
+    Directory: C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend
+
+
+Mode                 LastWriteTime         Length Name                                            
+----                 -------------         ------ ----                                            
+-a----        03-06-2026     19:13             34 index.js                                        
+-a----        03-06-2026     19:12            284 package.json                                    
+
+
+PS C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend> node index.js
+chai aur code 
+PS C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend> npm run start
+
+> chaibackend@1.0.0 start
+> node index.js
+
+chai aur code 
+PS C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend> npm install express 
+
+added 66 packages, and audited 67 packages in 4s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend> npm run start
+
+> chaibackend@1.0.0 start
+> node index.js
+
+Example app listening on port 3000
+PS C:\Users\Amol Aaba Shelar\OneDrive\Attachments\Desktop\backend> npm run start
+
+> chaibackend@1.0.0 start
+> node index.js
+
+Example app listening on port 3000
