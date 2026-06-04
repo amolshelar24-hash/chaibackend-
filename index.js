@@ -13,6 +13,9 @@ app.get('/twitter',(req,res)=>{
     res.send('AMOL SHELAR')
 })
 
+app.get('/github',(req,res) => {
+    res.json(githubData)
+})
 
 app.get('/login',(req,res)=>{
     res.send('<h1> please login to chai aur code </h1>')
